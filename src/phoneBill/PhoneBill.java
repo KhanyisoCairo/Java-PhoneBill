@@ -3,7 +3,7 @@ package phoneBill;
 public class PhoneBill {
     double costTotal;
     public void accept(BillAction billAction){
-        costTotal = billAction.totalCost();
+        costTotal += billAction.totalCost();
     }
     public double total(){
     return  Math.round(costTotal);

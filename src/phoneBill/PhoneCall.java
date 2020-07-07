@@ -4,7 +4,7 @@ public class  PhoneCall implements BillAction {
 
     double priceCall;
 
-    public void PhoneCall(double getCall){
+    public PhoneCall(double getCall){
         this.priceCall = getCall;
     }
 

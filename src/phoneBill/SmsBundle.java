@@ -1,15 +1,18 @@
 package phoneBill;
 
 public class SmsBundle implements BillAction {
-     int qyt;
-     double priceSms;
+//     int qyt;
+//     double priceSms;
+     double getTotalPrice;
 
-     public void SmsBundle(int qyt, double getSms){
-         this.qyt = qyt;
-         this.priceSms = getSms;
+     public  SmsBundle(int qyt, double getSms){
+
+//         this.qyt = qyt;
+//         this.priceSms = getSms;
+         getTotalPrice = qyt * getSms;
      }
     @Override
     public double totalCost() {
-        return priceSms;
+        return getTotalPrice;
     }
 }
