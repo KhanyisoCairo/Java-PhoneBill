@@ -8,8 +8,5 @@ public class PhoneBill {
     public double total(){
     return  Math.round(costTotal);
     }
-   public static void main(String[] args){
 
-
-   }
 }
