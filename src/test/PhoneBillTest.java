@@ -42,7 +42,7 @@ public class PhoneBillTest {
         phoneBill.accept(dataBundle);
         phoneBill.accept(dataBundle);
 
-        assertEquals(phoneBill.total(),1100,0);
+        assertEquals(phoneBill.total(),1760,0);
     }
 
     @Test
@@ -61,6 +61,6 @@ public class PhoneBillTest {
         phoneBill.accept(dataBundle);
         phoneBill.accept(dataBundle);
 
-        assertEquals(phoneBill.total(),829,0);
+        assertEquals(phoneBill.total(),994,0);
     }
 }

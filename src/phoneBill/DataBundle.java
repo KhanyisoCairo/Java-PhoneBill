@@ -6,13 +6,13 @@ public class DataBundle implements BillAction{
 
     public  DataBundle(double MBytes){
         if (MBytes < 500){
-            priceData = 0.75 * 500;
+            priceData = 0.75 * MBytes;
         }
         else if(MBytes > 500){
-            priceData =0.55 * 500;
+            priceData =0.55 * MBytes;
         }
         else if(MBytes > 1000){
-            priceData = 0.35 * 1000;
+            priceData = 0.35 * MBytes;
         }
         else {
             priceData = 0;
